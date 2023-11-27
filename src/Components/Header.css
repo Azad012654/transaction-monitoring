@@ -1,0 +1,21 @@
+.Header-component{
+    height:3rem;
+    /* background: rgb(209,208,218); */
+    background: linear-gradient(90deg, rgba(209,208,218,1) 0%, rgba(222,171,28,1) 7%, rgba(230,212,111,1) 36%, rgba(221,110,47,1) 86%, rgba(191,190,90,1) 100%);
+    text-align: center;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.Header-component h2{
+    font-family: cursive;
+    margin-left:10px;
+}
+.nav-container{
+    display:flex;
+    gap:15px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right:10px;
+}

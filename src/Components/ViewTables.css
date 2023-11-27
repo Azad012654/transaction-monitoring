@@ -1,0 +1,73 @@
+.viewTables-Main{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Table-Container{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+thead{
+    /* position:fixed; */
+    max-width:800px;
+    background-color:#f5f5f5;
+    /* border-radius: 8px; */
+    /* width:100%; */
+    /* padding-left:5px; */
+    /* border-top-right-radius: 10px; */
+    /* border-top-left-radius: 10px; */
+}
+.search-btn{
+    background: linear-gradient(45deg, #FFD700, #FFA500);  
+    width:20%; 
+    font-weight: bold;
+    font-size: 13px;
+    border-radius: 8px;
+}
+.search-btn:hover{
+    background: black;
+    color:white;
+}
+
+select{
+    width:250px;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.pagination-btn{
+    display:flex;
+    justify-content: space-between;
+    
+}
+.pagination-btn button{
+    background: linear-gradient(45deg, #FFD700, #FFA500);
+    border-radius:7px;
+    font-weight: bold;
+}
+.pagination-btn button:hover{
+    background: black;
+    color:white;
+    font-weight: bold;
+}
+.table-data{
+    width:100px;
+}
+.table-container{
+    height:400px;
+    overflow-y: scroll;
+    width:800px;
+    border:1px solid black;
+}
+tr{
+    /* margin-top:20px; */
+}
+th{
+    width:200px;
+}
+td{
+    width:170px;
+}
+
+
+
